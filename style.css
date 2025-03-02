@@ -1,0 +1,24 @@
+
+:root {
+    --grid-max-width: 77.50rem;
+    --grid-gutter: var(--space-s-l, clamp(1.125rem, 0.6467rem + 2.3913vw, 2.5rem));
+    --grid-columns: 12;
+  }
+  
+  .u-container {
+    max-width: var(--grid-max-width);
+    padding-inline: var(--grid-gutter);
+    margin-inline: auto;
+  }
+  
+  .u-grid {
+    display: grid;
+    gap: var(--grid-gutter);
+  }
+
+  h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #ff0000;
+  }
