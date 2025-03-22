@@ -1,24 +1,90 @@
-
-:root {
-    --grid-max-width: 77.50rem;
-    --grid-gutter: var(--space-s-l, clamp(1.125rem, 0.6467rem + 2.3913vw, 2.5rem));
-    --grid-columns: 12;
+.wireframe {
+    background-color: #000b00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
   }
   
-  .u-container {
-    max-width: var(--grid-max-width);
-    padding-inline: var(--grid-gutter);
-    margin-inline: auto;
+  .wireframe .overlap-group-wrapper {
+    background-color: #000b00;
+    width: 1440px;
+    height: 1024px;
   }
   
-  .u-grid {
-    display: grid;
-    gap: var(--grid-gutter);
+  .wireframe .overlap-group {
+    position: relative;
+    height: 1024px;
   }
-
-  h1 {
-    font-size: 5rem;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    color: #ff0000;
+  
+  .wireframe .frame {
+    display: flex;
+    width: 1229px;
+    position: absolute;
+    top: 104px;
+    left: 144px;
+    flex-direction: column;
+    align-items: flex-start;
   }
+  
+  .wireframe .hi-there-my-name-is {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Geist-Bold", Helvetica;
+    font-weight: 700;
+    color: #bed2c3;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .div {
+    display: inline-flex;
+    padding: 5px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .wireframe .text-wrapper {
+    position: relative;
+    width: 1229px;
+    margin-top: -1.00px;
+    font-family: "Geist-Bold", Helvetica;
+    font-weight: 700;
+    color: #e6eae3;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .i-am-a-product {
+    position: relative;
+    width: 1229px;
+    font-family: "Geist-Medium", Helvetica;
+    font-weight: 400;
+    color: #bed2c3;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .span {
+    font-weight: 500;
+  }
+  
+  .wireframe .text-wrapper-2 {
+    font-family: "Geist-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .wireframe .grid {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+  }
+  
